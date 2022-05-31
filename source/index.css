@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#root {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
